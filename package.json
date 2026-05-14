@@ -1,0 +1,22 @@
+{
+  "name": "exemplo-01-ecommerce-recomendations-template",
+  "version": "1.0.0",
+  "description": "machine learning to ecmmerce recomendations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "browser-sync -w . --server --files 'index.html, data/*.json, js/*.js' --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "tensorflow",
+    "recommendation",
+    "javascript"
+  ],
+  "author": "Pricila Kovalski",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
